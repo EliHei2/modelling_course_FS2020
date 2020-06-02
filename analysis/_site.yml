@@ -1,7 +1,7 @@
-name: "modelling_course_FS2020"
+name: modelling_course_FS2020
 output_dir: ../docs
 navbar:
-  title: "modelling_course_FS2020"
+  title: modelling_course_FS2020
   left:
   - text: Home
     href: index.html
@@ -9,6 +9,10 @@ navbar:
     href: about.html
   - text: License
     href: license.html
+  right:
+  - icon: fa-github
+    text: Source code
+    href: https://github.com/EliHei2/modelling_course_FS2020
 output:
   workflowr::wflow_html:
     toc: yes
